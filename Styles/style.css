@@ -5,9 +5,6 @@
 }
 
 /* Header Area Styles Starts */
-.header-area {
-    margin-top: 20px;
-}
 .logo-area {
     display: flex;
     justify-content: center;
@@ -68,8 +65,67 @@
 }
 /* Header Area Styles Ends */
 
+/* Banner Area Styles Starts */
+
+.whole-banner-area {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-hd {
+    font-family: Quicksand;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 3.8rem;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.bn-hd-1 {
+    color: rgb(254, 163, 1);
+}
+.bn-hd-2 {
+    color: rgb(1, 172, 253);
+}
+.banner-para {
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+}
+.banner-btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 50px;
+}
+.banner-img {
+    width: 100%;
+    height: auto;
+}
+/* Banner Area Styles Ends */
+/* Curriculum Area Styles Starts */
+
+.whole-curi-area {
+    height: 800px;
+    background-image: url(../assets/bg.png);
+}
+
+/* Curriculum Area Styles Ends */
+
 @media screen and (max-width: 576px) {
     /* Header Area Styles Starts */
+    .header-area {
+        width: 100%;
+    }
     #hr-tag {
         visibility: visible;
         border: none;
@@ -77,4 +133,30 @@
         background-color: rgb(254, 163, 1);
     }
     /* Header Area Styles Ends */
+
+    /* Banner Area Styles Starts */
+
+    .whole-banner-area {
+        height: auto;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .banner-hd {
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .banner-para {
+        text-align: center;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    .banner-img {
+        width: 100%;
+        height: auto;
+    }
+    .banner-btn {
+        padding: 12px 35px;
+    }
+    /* Banner Area Styles Ends */
 }
