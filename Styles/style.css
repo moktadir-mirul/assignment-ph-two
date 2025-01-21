@@ -5,6 +5,18 @@
 }
 
 /* Header Area Styles Starts */
+
+.header {
+    width: 85%;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .logo-area {
     display: flex;
     justify-content: center;
@@ -22,28 +34,36 @@
     font-weight: 700;
     margin-left: 10px;
 }
-#nav-link1 {
+.navs {
+    text-decoration: none;
+}
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.nav-link1 {
     color: rgb(254, 163, 1);
     font-family: Quicksand;
     font-size: 1.25rem;
     font-weight: 700;
     margin-left: 13px;
 }
-#nav-link2 {
+.nav-link2 {
     color: rgb(1, 172, 253);
     font-family: Quicksand;
     font-size: 20px;
     font-weight: 500;
     margin-left: 13px;
 }
-#nav-link3{
+.nav-link3{
     color: rgb(5, 212, 223);
     font-family: Quicksand;
     font-size: 20px;
     font-weight: 500;
     margin-left: 13px;
 }
-#nav-link4 {
+.nav-link4 {
     color: rgb(93, 88, 239);
     font-family: Quicksand;
     font-size: 20px;
@@ -60,6 +80,9 @@
     border-radius: 12px;
     padding: 10px 50px;
 }
+#menu-icon {
+    display: none;
+}
 #hr-tag {
     visibility: hidden;
 }
@@ -68,7 +91,7 @@
 /* Banner Area Styles Starts */
 
 .whole-banner-area {
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     height: auto;
     display: flex;
@@ -118,31 +141,59 @@
     height: 800px;
     background-image: url(../assets/bg.png);
 }
-
+.curri-hd {
+    padding-top: 80px;
+}
+.curri-hd-text {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 2.86rem;
+    font-weight: 700;
+    text-align: center;
+}
+.card-1 {
+    width: 500px;
+    height: 400px;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
 /* Curriculum Area Styles Ends */
 
 @media screen and (max-width: 576px) {
     /* Header Area Styles Starts */
-    .header-area {
-        width: 100%;
+    .header {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 10px;
+        height: 80px;
+    }
+    .logo-text, .menu-part, .nav-btn {
+        display: none;
+    }
+    #menu-icon {
+        display: block;
     }
     #hr-tag {
         visibility: visible;
         border: none;
-        height: 3.5px;
+        height: 2.5px;
         background-color: rgb(254, 163, 1);
     }
     /* Header Area Styles Ends */
 
     /* Banner Area Styles Starts */
-
     .whole-banner-area {
+        width: 85%;
+        margin: 0 auto;
         height: auto;
         text-align: center;
         flex-direction: column-reverse;
     }
     .banner-hd {
         margin-top: 20px;
+        font-size: 2.8rem;
         text-align: center;
         margin-bottom: 25px;
     }
