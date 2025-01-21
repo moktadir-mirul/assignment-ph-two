@@ -135,11 +135,14 @@
     height: auto;
 }
 /* Banner Area Styles Ends */
-/* Curriculum Area Styles Starts */
 
+/* Curriculum Area Styles Starts */
 .whole-curi-area {
-    height: 800px;
+    width: 100%;
+    height: 850px;
     background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .curri-hd {
     padding-top: 80px;
@@ -151,13 +154,91 @@
     font-weight: 700;
     text-align: center;
 }
+.curri-card-area {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+}
+.curri-card {
+    width: 360px;
+    height: 450px;
+    padding: 35px 20px;
+    text-align: center;
+}
+.card-img {
+    width: 8rem;
+    height: 8rem;
+}
 .card-1 {
-    width: 500px;
-    height: 400px;
     border: 0.94px solid rgb(222, 245, 255);
     border-radius: 18.86px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card-2 {
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card-3 {
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card-hd {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: rgb(32, 32, 32);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.card-para {
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 28.3px;
+    margin-bottom: 30px;
+}
+.card-btn1 {
+    text-decoration: none;
+    color: rgb(100, 200, 255);
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.card-btn2 {
+    text-decoration: none;
+    color: rgb(240, 170, 0);
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.card-btn3 {
+    text-decoration: none;
+    color: rgb(135, 0, 255);
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.curri-btn-area {
+    padding-top: 70px;
+    text-align: center;
+}
+.curri-indicator {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(254, 163, 1);
+}
+.extra {
+    margin-left: 10px;
 }
 /* Curriculum Area Styles Ends */
 
@@ -210,4 +291,33 @@
         padding: 12px 35px;
     }
     /* Banner Area Styles Ends */
+
+    /* Curriculum Area Style Starts */
+    /* .whole-curi-area{
+        width: 100%;
+        height: auto;
+    } */
+    /* .curri-hd {
+        margin-bottom: 10px;
+    } */
+    .curri-card-area {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .curri-card {
+        width: 90%;
+        height: auto;
+        padding: 40px 80px;
+    }
+    .card-hd {
+        font-size: 1.7rem;
+    }
+    .card-para {
+        font-size: 1rem;
+    }
+    .curri-btn-area {
+        display: none;
+    }
+    /* Curriculum Area Style Starts */
 }
