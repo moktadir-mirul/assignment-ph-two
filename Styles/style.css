@@ -141,8 +141,6 @@
     width: 100%;
     height: 850px;
     background-image: url(../assets/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .curri-hd {
     padding-top: 80px;
@@ -242,6 +240,133 @@
 }
 /* Curriculum Area Styles Ends */
 
+/* Stories Area Style Starts */
+.whole-stories-area {
+    width: 100%;
+    height: 980px;
+    background: url(../assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+.stories-hd {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.story-hd-text {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 2.9rem;
+    font-weight: 700;
+    text-align: center;
+}
+.stories-container-flex {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.small-story-container {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+.big-story-card {
+    width: 580px;
+    height: 600px;
+    border-radius: 16px;    
+    background: rgb(255, 255, 255);
+}
+.small-story-card {
+    width: 250px;
+    height: 285px;
+    border-radius: 16px;    
+    background: rgb(255, 255, 255);
+}
+.big-s-img {
+    width: 100%;
+    height: 50%;
+    border-radius: 16px 16px 0px 0px;
+}
+.big-s-texts {
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-right: 60px;
+}
+.big-s-hd {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 38.35px;
+}
+.big-s-para {
+    padding-top: 40px;
+    color: rgb(102, 102, 102);
+    font-family: Raleway;
+    font-size: 0.85rem;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+}
+.big-s-btn {
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 47.93px;
+    background-color: rgb(60, 216, 232);
+    padding: 12px 15px;
+    position: relative;
+    top: -25px;
+    left: 35px;
+}
+.sm-s-img {
+    width: 100%;
+    height: 60%;
+    border-radius: 16px 16px 0px 0px;
+}
+.sm-s-text {
+    margin-left: 35px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+}
+.sm-s-btn {
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 47.93px;
+    background-color: rgb(149, 178, 38);;
+    padding: 10px 18px;
+    position: relative;
+    top: -24px;
+    left: 35px;
+}
+.sm-s-btn2 {
+    background-color: rgb(93, 88, 240);
+}
+.story-btn-area {
+    margin-top: 90px;
+    text-align: center;
+}
+.stories-view-btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border: none;
+    padding: 12px 65px;
+    border-radius: 12px;
+}
+/* Stories Area Styles Ends */
 @media screen and (max-width: 576px) {
     /* Header Area Styles Starts */
     .header {
