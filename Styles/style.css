@@ -466,7 +466,153 @@
     cursor: pointer;
 }
 /* Footer Area Style Ends */
+
+/* Responsive Designs */
 @media screen and (max-width: 576px) {
+    /* Header Area Styles Starts */
+    .header {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 10px;
+        height: 80px;
+    }
+    .logo-text, .menu-part, .nav-btn {
+        display: none;
+    }
+    #menu-icon {
+        display: block;
+    }
+    #hr-tag {
+        visibility: visible;
+        border: none;
+        height: 2.5px;
+        background-color: rgb(254, 163, 1);
+    }
+    /* Header Area Styles Ends */
+
+    /* Marquee Styles Starts */
+    .marquee-area {
+        margin-top: 15px;
+    }
+    /* Marquee Styles Ends */
+
+    /* Banner Area Styles Starts */
+    .whole-banner-area {
+        width: 85%;
+        margin: 0 auto;
+        height: auto;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .banner-hd {
+        margin-top: 20px;
+        font-size: 2.8rem;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .banner-para {
+        text-align: center;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    .banner-img {
+        width: 100%;
+        height: auto;
+    }
+    .banner-btn {
+        padding: 12px 35px;
+    }
+    /* Banner Area Styles Ends */
+
+    /* Curriculum Area Style Starts */
+    .whole-curi-area{
+        width: 100%;
+        height: auto;
+    }
+    .curri-hd {
+        margin-bottom: 10px;
+    }
+    .curri-card-area {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .curri-card {
+        width: 90%;
+        height: auto;
+        padding: 40px 80px;
+    }
+    .card-hd {
+        font-size: 1.7rem;
+    }
+    .card-para {
+        font-size: 1rem;
+    }
+    .curri-btn-area {
+        display: none;
+    }
+    /* Curriculum Area Style Starts */
+
+    /* Story Area Style Starts */
+    .whole-stories-area {
+        width: 100%;
+        height: auto;
+    }
+    .stories-container-flex {
+        width: 100%;
+        flex-direction: column;
+    }
+    .big-story-card {
+        display: none;
+    }
+    .small-story-container {
+        margin: 0px 15px;
+    }
+    .small-story-card {
+        width: auto;
+        height: auto;
+    }
+    .sm-s-text {
+        font-size: 0.7rem;
+        max-width: auto;
+        line-height: 15px;
+        margin-top: -10px;
+        margin-left: 18px;
+        margin-bottom: 5px;
+    }
+    .sm-s-btn {
+        font-size: 0.65rem;
+        left: 18px;
+    }
+    .story-btn-area {
+        margin-top: 50px;
+        padding-bottom: 40px;
+    }
+    /* Story Area STyle Ends */
+
+    /* Footer Area Style Starts */
+    .whole-footer-area{
+        height: auto;
+    }
+    .footer-container {
+        width: 100%;
+        margin-left: 30px;
+        flex-direction: column;
+        gap: 40px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .kids-part {
+        max-width: 90%;
+    }
+    .kids-para {
+        margin-left: 0px;
+    }
+    /* Footer Area Style Ends */
+}
+
+/* Responsive for Medium Screens */
+@media screen and (min-width: 576px) and (max-width: 992px) {
     /* Header Area Styles Starts */
     .header {
         width: 90%;
