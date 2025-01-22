@@ -282,7 +282,7 @@
     width: 85%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
 }
 .small-s-container-1 {
@@ -297,13 +297,13 @@
     gap: 20px;
 }
 .big-story-card {
-    width: 580px;
+    max-width: 500px;
     height: 600px;
     border-radius: 16px;    
     background: rgb(255, 255, 255);
 }
 .small-story-card {
-    width: 250px;
+    max-width: 250px;
     height: 285px;
     border-radius: 16px;    
     background: rgb(255, 255, 255);
@@ -314,7 +314,7 @@
     border-radius: 16px 16px 0px 0px;
 }
 .big-s-texts {
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 35px;
     margin-right: 60px;
 }
@@ -323,16 +323,16 @@
     font-family: Quicksand;
     font-size: 1.5rem;
     font-weight: 700;
-    line-height: 32px;
+    line-height: 38px;
 }
 .big-s-para {
     max-width: 100%;
-    padding-top: 30px;
+    padding-top: 40px;
     color: rgb(102, 102, 102);
     font-family: Raleway;
-    font-size: 0.82rem;
+    font-size: 0.85rem;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 28px;
     object-fit: cover;
 }
 .big-s-btn {
@@ -565,6 +565,7 @@
     .stories-container-flex {
         width: 100%;
         flex-direction: column;
+        align-items: center;
     }
     .big-story-card {
         display: none;
@@ -713,6 +714,7 @@
     .stories-container-flex {
         width: 100%;
         flex-direction: column;
+        align-items: center;
     }
     .big-story-card {
         display: none;
@@ -764,3 +766,4 @@
     }
     /* Footer Area Style Ends */
 }
+ /* Responsive for medium-large devices */
