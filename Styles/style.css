@@ -383,6 +383,76 @@
     border-radius: 12px;
 }
 /* Stories Area Styles Ends */
+
+/* Footer Area Style Starts */
+.whole-footer-area {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(1, 172, 253);
+}
+.footer-container {
+    padding-top: 120px;
+    padding-bottom: 160px;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.kids-part {
+    max-width: 40%;
+}
+.footer-logo {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.kids-hd {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 2.65rem;
+    font-weight: 700;
+    line-height: 39.51px;
+}
+.kids-text {
+    padding-top: 30px;
+}
+.kids-para {
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.about-hd {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+.about-link {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1.25rem;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+}
+.social-text {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 26px;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+.social-img {
+    margin-left: 5px;
+    cursor: pointer;
+}
+/* Footer Area Style Ends */
 @media screen and (max-width: 576px) {
     /* Header Area Styles Starts */
     .header {
@@ -497,4 +567,5 @@
         padding-bottom: 40px;
     }
     /* Story Area STyle Ends */
+
 }
